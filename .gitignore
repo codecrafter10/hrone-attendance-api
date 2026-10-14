@@ -1,0 +1,18 @@
+﻿venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.log
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Accidental empty file
+/python
+
+# Local backup; do not submit
+/app/main_before_history_fix.py
